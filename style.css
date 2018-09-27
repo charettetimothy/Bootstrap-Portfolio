@@ -6,10 +6,29 @@ body {
         padding: 0;
     }
 
-h1 {
-    background-color: #4aaaa5;
+.container {
+    background-color: white;
+    margin-top: 50px;
 }
 
+h1 {
+    margin: 10px 0 0 15px;
+    padding: 10px;
+    background-color: aqua;
+}
+    
+div.card-body {
+    padding: 0;
+    border: none;
+}
 
+div.card {
+    border: none;
+}
 
-
+.btn {
+    position: relative;
+    bottom: 50px;
+    width: 100%;
+    background-color: aqua;
+}
